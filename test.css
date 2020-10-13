@@ -67,6 +67,10 @@
 
 .backdrope-test {
   position: absolute;
+
+  transition-property: opacity;
+
+  position: fixed;
   opacity: 1;
   top: 0;
   left: 0;
