@@ -816,3 +816,23 @@ body {
   background-image: url(../images/close.svg);
   background-color: inherit;
 }
+
+.button-subscribe {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: -100%;
+  background-color: var(--blue-color);
+}
+
+.svg-subscribe {
+}
+
+.label-subscribe {
+  outline: 4px solid salmon;
+}
+
+.footer-subscribe {
+  position: relative;
+}
