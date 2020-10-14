@@ -817,11 +817,11 @@ body {
   background-color: inherit;
 }
 
+/* * {
+  outline: 1px solid salmon;
+} */
+
 .button-subscribe {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   right: -100%;
   background-color: var(--blue-color);
 }
@@ -830,9 +830,9 @@ body {
 }
 
 .label-subscribe {
-  outline: 4px solid salmon;
+  width: 358px;
+  height: 50px;
 }
 
 .footer-subscribe {
-  position: relative;
 }
